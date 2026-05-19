@@ -75,13 +75,13 @@ Start by locating the private key file that you saved previously. Copy the locat
 Use the following syntax to SSH into it:
 
 ```bash
-ssh -i "{private key location}"ubuntu@{your VM ip address}
+ssh -i "{private key location}" ubuntu@{your VM ip address}
 ```
 
 For example, I use the following command:
 
 ```bash
-ssh -i "C:\Users\Stephan\Downloads\oracle\private.key"ubuntu@123.456.789.012
+ssh -i "C:\Users\Stephan\Downloads\oracle\private.key" ubuntu@123.456.789.012
 ```
 
 #### PuTTY
