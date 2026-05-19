@@ -140,6 +140,7 @@ iptables -P FORWARD ACCEPT
 iptables -F
 apt install firewalld
 firewall-cmd --permanent --zone=public --add-port=25565/tcp
+firewall-cmd --permanent --zone=public --add-port=80/tcp
 firewall-cmd --permanent --zone=public --add-port=25565/udp
 firewall-cmd --reload
 ```
