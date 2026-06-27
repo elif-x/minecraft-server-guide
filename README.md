@@ -141,6 +141,8 @@ iptables -F
 apt install firewalld
 firewall-cmd --permanent --zone=public --add-port=25565/tcp
 firewall-cmd --permanent --zone=public --add-port=80/tcp
+firewall-cmd --permanent --zone=public --add-port=8080/tcp
+firewall-cmd --permanent --zone=public --add-port=2022/tcp
 firewall-cmd --permanent --zone=public --add-port=25565/udp
 firewall-cmd --reload
 ```
